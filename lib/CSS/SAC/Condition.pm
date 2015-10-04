@@ -8,7 +8,7 @@
 package CSS::SAC::Condition;
 use strict;
 use vars qw($VERSION);
-$VERSION = $CSS::SAC::VERSION || '0.03';
+$VERSION = $CSS::SAC::VERSION || '0.08';
 
 #---------------------------------------------------------------------#
 # build the fields for an array based object

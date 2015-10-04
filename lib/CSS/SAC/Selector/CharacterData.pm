@@ -8,7 +8,7 @@
 package CSS::SAC::Selector::CharacterData;
 use strict;
 use vars qw($VERSION);
-$VERSION = $CSS::SAC::VERSION || '0.03';
+$VERSION = $CSS::SAC::VERSION || '0.08';
 
 use base qw(CSS::SAC::Selector::Simple);
 

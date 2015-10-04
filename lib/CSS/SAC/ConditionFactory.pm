@@ -8,7 +8,7 @@
 package CSS::SAC::ConditionFactory;
 use strict;
 use vars qw($VERSION);
-$VERSION = $CSS::SAC::VERSION || '0.03';
+$VERSION = $CSS::SAC::VERSION || '0.08';
 
 use CSS::SAC::Condition             qw(:constants);
 use CSS::SAC::Condition::Attribute  qw();

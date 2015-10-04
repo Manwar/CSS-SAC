@@ -8,7 +8,7 @@
 package CSS::SAC::TestWriter;
 use strict;
 use vars qw($VERSION $ident $spacer);
-$VERSION = '0.01';
+$VERSION = '0.08';
 $spacer = '  ';
 
 use CSS::SAC::Selector      qw(:constants);

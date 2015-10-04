@@ -9,7 +9,7 @@
 package CSS::SAC::Writer;
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.03';
+$VERSION = '0.08';
 
 use CSS::SAC::Selector      qw(:constants);
 use CSS::SAC::Condition     qw(:constants);

@@ -3,7 +3,7 @@ LICENSE
 MANIFEST
 Makefile.PL
 README
-SAC.pm
+lib/CSS/SAC.pm
 lib/CSS/SAC/Condition.pm
 lib/CSS/SAC/Condition/Attribute.pm
 lib/CSS/SAC/Condition/Combinator.pm

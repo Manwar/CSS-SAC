@@ -3,14 +3,14 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     'NAME'          => 'CSS::SAC',
-    'VERSION_FROM'  => 'SAC.pm',
+    'VERSION_FROM'  => 'lib/CSS/SAC.pm',
     'PREREQ_PM'     => {
                         Text::Balanced      => '1.84',
                         Class::ArrayObjects => '0.04',
                        },
 
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'SAC.pm', # retrieve abstract from module
+      (ABSTRACT_FROM  => 'lib/CSS/SAC.pm', # retrieve abstract from module
        AUTHOR         => 'Robin Berjon') : ()),
 
     LICENSE           => 'perl',
